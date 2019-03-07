@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Gratis filmundervisning for unge i Faaborg">
+<meta name="keywords" content="film, kortfilm, filmundervisning, filmproduktion, undervisning, 18frams, fyn, Faaborg">
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="favicon-32x32.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon"/>
+<title>Klar til film - Station Next</title>
+</head>
+<body>
+  <div class="banner">
+    <video autoplay muted loop class="videobanner">
+    <source src="videobanner3.mp4" type="video/mp4">
+    </video>
+  </div>
+  <header>
+    <div id="navbar">
+      <nav>
+        <ul>
+          <li><a href="#tilmeld"> TILMELD</a></li>
+          <li><a href="#film"> FILM</a></li>
+          <li><img class="logo" src="Logo.png" alt="Klar til Film Station Next Logo"></li>
+          <li><a href="#omos"> OM OS</a></li>
+          <li><a href="#kontakt"> KONTAKT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main>
+ <div class="Youtube">
+  <br>
+  <br>
+  <h1>GÅ TIL FILM I FAABORG</h1>
+
+  <div class="yt">
+  <iframe width="800" height="500" src="https://www.youtube.com/embed/0OTvqi9fxLQ" style="border:none; background:transparent; overflow:hidden; width:100%;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>  </div>
+ </div>
+ <div class="Info1">
+    <br>
+         <h1>OM OS</h1>
+    <div class="infoboks">
+      <p>
+        <img class="img1" src="picture2.jpg" alt="Elever på optagelse i Klar Til Film Station Next">
+        Klar til film – Station Next i Faaborg er et professionelt filmtilbud for dig, der er mellem 14-20 år. Her får du mulighed for at arbejde med film på et professionelt niveau. Når du har lavet en film, hjælper vi dig også med at sende den til filmfestivaller i Danmark og i udlandet. Du bliver undervist af professionelle filmfolk og får mulighed for at danne dig et godt netværk både blandt de professionelle og de andre elever på holdet. undervisningen er gratis.</p>
+      <br>
+    </div>
+    <button class="button">Læs mere</button>
+
+ </div>
+
+ <div class="Info2">
+    <br>
+      <h1>PRODUKTIONER</h1>
+      <div class="infoboks2">
+        <p>Se produktioner lavet på Klar Til Film - Station Next</p>
+        <br>
+        <div class="fb">
+        <a href="https://www.youtube.com/channel/UCB17ObA6L5tQA2ZujA191gw/videos?view=0&sort=dd&shelf_id=0" target="_blank"><img src="produktioner.png" width="800" style="width:100%" alt="Klar til Film - Station Next på Facebook"></a>
+        </div>
+      </div>
+ </div>
+
+ <div class="Info4">
+      <br>
+      <h1>SE MERE PÅ VORES FACEBOOK SIDE</h1>
+      <div class="Facebook">
+      <br>
+             <div class="fb">
+             <a href="https://www.facebook.com/klartilfilm/" target="_blank"><img src="facebook.png" width="800" style="width:100%" alt="Klar til Film - Station Next på Facebook"></a>
+             </div>
+    </div>
+ </div>
+
+ <div class="Info3">
+    <br>
+      <h1>TILMELD ELLER SPØRG NÆRMERE </h1>
+      <div class="infoboks3">
+          <br>
+          <br>
+        <p>Navn</p>
+        <form action="/action_page.php">
+          <textarea name="message" rows="1" cols="110"></textarea>    <br>
+          <br> E-Mail: <br>
+          <textarea name="message" rows="1" cols="110"></textarea>    <br>
+          <br> Besked / Spørgsmål <br>
+        <textarea name="message" rows="10" cols="110"></textarea>    <br>
+        <br>
+        </form>
+        <button class="button" onclick="alert('Tak for din henvendelse!')">Indsend</button>
+      </div>
+ </div>
+
+  </main>
+<footer>
+    <h4>Klar til Film - Station Next</h4>
+    <p>Sundagervej 42, 5600 Faaborg</p>
+    <p>Mikael Woelke & Emil Christian Østergaard</p>
+    <p>Tlf. 28939944 eller 20235253 </p>
+  </footer>
+
+  <script>
+ // Javascript af w3schools
+ window.onscroll = function() {myFunction()};
+ var navbar = document.getElementById("navbar");
+ var sticky = navbar.offsetTop;
+ function myFunction() {
+   if (window.pageYOffset >= sticky) {
+     navbar.classList.add("sticky")
+   } else {
+     navbar.classList.remove("sticky");
+   }
+ }
+ </script>
+
+</body>
+</html>
